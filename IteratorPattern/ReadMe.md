@@ -3,7 +3,7 @@
 sequentially without exposing its underlying representation.
 
 ##UML Diagram
-![Iterator Pattern UML Diagram](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FIterator_pattern&psig=AOvVaw1BZsWGkDJRtohD0-RkDrky&ust=1630234605153000&source=images&cd=vfe&ved=2ahUKEwjyk8ylx9PyAhVGQ30KHeXhCqwQr4kDegUIARCsAQ)
+![Iterator Pattern UML Diagram](https://upload.wikimedia.org/wikipedia/commons/1/13/Iterator_UML_class_diagram.svg)
 
 ##Project Info
 A Hardware Store Inventory System.
