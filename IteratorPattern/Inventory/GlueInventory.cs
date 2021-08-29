@@ -1,4 +1,5 @@
 ﻿using IteratorPattern.Interfaces;
+using IteratorPattern.Iterators;
 using IteratorPattern.Models;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace IteratorPattern.Inventory
 {
-    public class GlueInventory : IInventory
+    public class GlueInventory : IInventory, IIterable
     {
         private List<Glue> GlueCollection = new List<Glue>();
         public GlueInventory(ISeeder<Glue> seeder)
@@ -23,6 +24,11 @@ namespace IteratorPattern.Inventory
             {
                 GlueCollection.Add(item as Glue);
             }
+        }
+
+        public IIterator GetIterator()
+        {   
+            return new Iterator<Glue>(GlueCollection);
         }
 
         public void RemoveItem(IInventoryItem item)

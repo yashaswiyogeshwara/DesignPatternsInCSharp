@@ -1,4 +1,5 @@
 ﻿using IteratorPattern.Interfaces;
+using IteratorPattern.Iterators;
 using IteratorPattern.Models;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace IteratorPattern.Inventory
 {
-    public class DoorInventory : IInventory
+    public class DoorInventory : IInventory, IIterable
     {
         private List<Door> DoorCollection = new List<Door>();
         public DoorInventory(ISeeder<Door> seeder) 
@@ -22,6 +23,11 @@ namespace IteratorPattern.Inventory
             {
                 DoorCollection.Add(item as Door);
             }
+        }
+
+        public IIterator GetIterator()
+        {
+            return new Iterator<Door>(DoorCollection);
         }
 
         public void RemoveItem(IInventoryItem item)
