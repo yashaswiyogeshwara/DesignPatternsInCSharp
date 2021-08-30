@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{3EB4E285-C396-479D-A14E-AA071EAA9B5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{3EB4E285-C396-479D-A14E-AA071EAA9B5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NullObjectPattern", "NullObjectPattern", "{2EA5F52B-D35A-4E80-8703-D99C77D5854E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObjectPattern", "NullObjectPattern\NullObjectPattern\NullObjectPattern.csproj", "{A9021F6C-A5CB-48AD-BC0D-2BB0F3A63836}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{3EB4E285-C396-479D-A14E-AA071EAA9B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EB4E285-C396-479D-A14E-AA071EAA9B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EB4E285-C396-479D-A14E-AA071EAA9B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9021F6C-A5CB-48AD-BC0D-2BB0F3A63836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9021F6C-A5CB-48AD-BC0D-2BB0F3A63836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9021F6C-A5CB-48AD-BC0D-2BB0F3A63836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9021F6C-A5CB-48AD-BC0D-2BB0F3A63836}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9021F6C-A5CB-48AD-BC0D-2BB0F3A63836} = {2EA5F52B-D35A-4E80-8703-D99C77D5854E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5D8D33D-B3D4-4F2B-9511-3B211569FA87}
