@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "Iterator
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NullObjectPattern", "NullObjectPattern", "{2EA5F52B-D35A-4E80-8703-D99C77D5854E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObjectPattern", "NullObjectPattern\NullObjectPattern\NullObjectPattern.csproj", "{A9021F6C-A5CB-48AD-BC0D-2BB0F3A63836}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObjectPattern", "NullObjectPattern\NullObjectPattern\NullObjectPattern.csproj", "{A9021F6C-A5CB-48AD-BC0D-2BB0F3A63836}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompositePattern", "CompositePattern", "{0FB9E746-0EB3-4064-8127-9C0F707DC5FE}"
+	ProjectSection(SolutionItems) = preProject
+		CompositePattern\ReadMe.md = CompositePattern\ReadMe.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
